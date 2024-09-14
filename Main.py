@@ -9,8 +9,8 @@ def abrir_ventana2():
 
 ventana = tk.Tk()
 ventana.title("Ventana principal") 
-ventana.minsize(400, 400)
-ventana.maxsize(600, 600)
+ventana.minsize(400, 300)
+ventana.maxsize(400, 300)
 
 etiqueta = tk.Label(ventana,text="Tarea Parcial Primer Corte")
 etiqueta.grid(row=1,column=1,padx=5,pady=5)

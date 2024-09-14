@@ -41,20 +41,18 @@ def simple():
 
 # Creación de la ventana
 ventana = tk.Tk()
-ventana.title("Regresión Lineal")
-ventana.minsize(600, 600)
-ventana.maxsize(600, 600)
+ventana.title("Regresión Lineal Simple")
+ventana.minsize(400, 300)
+ventana.maxsize(400, 300)
 
 # Etiquetas y cajas de entrada
-etiqueta1 = tk.Label(ventana, text="Requerimiento 1:")
-etiqueta1.grid(row=1, column=1, padx=5, pady=5)
-etiqueta2 = tk.Label(ventana, text="Digite la cantidad de pacientes:")
-etiqueta2.grid(row=2, column=1, padx=5, pady=5)
+etiqueta1 = tk.Label(ventana, text="Digite la cantidad de pacientes:")
+etiqueta1.grid(row=2, column=1, padx=5, pady=5)
 caja1 = tk.Entry(ventana)
 caja1.grid(row=2, column=2, padx=5, pady=5)
 
 # Botón para calcular
-boton1 = tk.Button(ventana, text="Calcular", command=simple)
+boton1 = tk.Button(ventana, text="Calcular tiempo", command=simple)
 boton1.grid(row=3, column=2, padx=5, pady=5)
 
 # Label para mostrar el resultado
