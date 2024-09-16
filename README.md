@@ -1,6 +1,4 @@
-# ParcialCienciasComputacion
-
-# Proyecto de Ciencias de la Computación
+# Proyecto de Ciencias de la Computación 2024-2
 
 ## Descripción
 
