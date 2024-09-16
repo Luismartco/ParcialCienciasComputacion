@@ -8,18 +8,20 @@ Este repositorio contiene el proyecto parcial de la asignatura de Ciencias de la
 
 ## Características del proyecto
 
-### Regresión Lineal Simple: 
-Implementación de un modelo que analiza la relación entre una variable independiente y una variable dependiente.
-### Regresión Lineal Múltiple:
-Desarrollo de un modelo que estudia la relación entre múltiples variables independientes y una variable dependiente.
-### Interfaces de Usuario: 
-Se han creado interfaces intuitivas para facilitar la interacción del usuario con los modelos de regresión, permitiendo la entrada de datos y la visualización de resultados.
+- **Regresión Lineal Simple:** Implementación de un modelo que analiza la relación entre una variable independiente y una variable dependiente.
+
+- **Regresión Lineal Múltiple:** Desarrollo de un modelo que estudia la relación entre múltiples variables independientes y una variable dependiente.
+
+- **Interfaces de Usuario:** Se han creado interfaces intuitivas para facilitar la interacción del usuario con los modelos de regresión, permitiendo la entrada de datos y la visualización de resultados.
 
 ## Tecnologías utilizadas
 
 -Python
+
 -Bibliotecas de análisis de datos (pandas, NumPy)
+
 -Bibliotecas de visualización (Matplotlib, Seaborn)
+
 -Frameworks para interfaces (Tkinter, Streamlit)
 
 ## Instalación
